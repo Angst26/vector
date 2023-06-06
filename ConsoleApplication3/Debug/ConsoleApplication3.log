@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (ConsoleApplication3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  ConsoleApplication3.cpp
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(71,18): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(70): message : во время компиляции функции-члена класс шаблон "void vector<float,std::allocator<T>>::reserve(int)"
+          with
+          [
+              T=float
+          ]
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(177): message : выполняется компиляция ссылки на экземпляр шаблон функции "void vector<float,std::allocator<T>>::reserve(int)"
+          with
+          [
+              T=float
+          ]
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(163): message : во время компиляции функции-члена класс шаблон "void vector<float,std::allocator<T>>::display(void)"
+          with
+          [
+              T=float
+          ]
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(192): message : выполняется компиляция ссылки на экземпляр шаблон функции "void vector<float,std::allocator<T>>::display(void)"
+          with
+          [
+              T=float
+          ]
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(189): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "vector<float,std::allocator<T>>"
+          with
+          [
+              T=float
+          ]
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(74,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79960\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(76,23): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplication3.vcxproj -> C:\Users\79960\source\repos\ConsoleApplication3\Debug\vector.exe
